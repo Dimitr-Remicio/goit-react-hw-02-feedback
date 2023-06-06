@@ -15,17 +15,7 @@ function Dark() {
     }
   };
 
-  const overflowScroll = () => {
-    const scrollActn = document.querySelector('#style-3');
 
-    if (scrollActn.classList.contains('scrollbar')) {
-      scrollActn.style.overflow = 'hidden';
-      scrollActn.classList.remove('scrollbar');
-    } else {
-      scrollActn.style.overflow = 'scroll';
-      scrollActn.classList.add('scrollbar');
-    }
-  };
 
   useEffect(() => {
     document.body.className = theme;
