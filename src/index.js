@@ -7,12 +7,10 @@ import Dark from 'components/arrow/arrows';
 
 import Headers from 'components/head/head.js';
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <App />
-    <Dark/>
-    <Headers  />
-
+    <Dark />
+    <Headers />
   </React.StrictMode>
 );

@@ -5,8 +5,6 @@ import FeedbackOptions from './FeedbackOptions/FeedbackOptions';
 import Statistics from './Statistics/Statistics';
 import Notification from './Notification/Notification';
 
-
-
 class App extends Component {
   state = {
     good: 0,
@@ -35,7 +33,6 @@ class App extends Component {
     const options = Object.keys(this.state);
 
     return (
-      
       <div className={style.container}>
         <Section title="Por favor deje sus comentarios">
           <FeedbackOptions

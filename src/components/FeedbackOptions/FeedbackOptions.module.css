@@ -1,6 +1,6 @@
 @import '../../aditional/colors.css';
 
-.btnCont{
+.btnCont {
   display: flex;
 }
 
@@ -21,12 +21,9 @@
   border: 1px solid var(--state-1);
 
   transition: all 250ms ease;
-
 }
-
 
 .btn:hover {
   background: var(--state-1);
   color: var(--text-color);
-
 }
